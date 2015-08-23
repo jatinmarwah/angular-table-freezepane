@@ -6,7 +6,7 @@
 angular.module('freezepaneModule', []).directive('tablefreeze', function () {
   return {
     restrict: 'E',
-    templateUrl: "template/directive_template/freezePane.html", //Modify this to suit your directory requirements
+    templateUrl: "template/directive_template/freezepane.html", //Modify this to suit your directory requirements
     transclude: true,
     scope: true,
     link: function (scope, elem, attrs, ctrl) {
